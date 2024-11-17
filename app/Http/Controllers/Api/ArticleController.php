@@ -26,7 +26,7 @@ class ArticleController extends Controller
      *     @OA\Parameter(
      *         name="category",
      *         in="query",
-     *         description="Filter by article category",
+     *         description="Filter by article category, possible values: NewsAPI, New York Times, & BBC News",
      *         required=false,
      *         @OA\Schema(type="string")
      *     ),

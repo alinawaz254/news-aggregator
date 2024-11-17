@@ -28,7 +28,7 @@ class FetchNewsArticles extends Command
      */
     public function handle()
     {
-//        DB::table('articles')->truncate();
+        // DB::table('articles')->truncate();
 
         // Fetch and save articles from NewsAPI
         $this->fetchNewsAPIArticles();
